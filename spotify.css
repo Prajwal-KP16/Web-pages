@@ -1,0 +1,391 @@
+*{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* svg{
+  fill: white;
+}
+
+.home{
+  background-color: #121212;
+  height: 150px;
+  width: 280px;
+  fill: white;
+  border-radius: 10px;
+}
+
+.home svg{
+  background-color: #121212;
+  height: 28px;
+  color: #B3B3B3;
+}
+
+.home ul{
+  list-style: none;
+  background-color: #121212;
+}
+
+.home span{
+  position: relative;
+  bottom: 10px;
+}
+
+.home .h2,.h3,span{
+  margin-bottom: 20px;
+  background-color: #121212;
+  color: #b3b3b3;
+}
+
+.home .h1{
+  background-color: #121212;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 10px;
+}
+
+.lib{
+  height: 50px;
+  width: 280px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.b1{
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #7A7A7A;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.b1 .s1{
+  height: 30px;
+  width: 30px;
+}
+
+.lib *{
+  background-color:#121212;
+}
+
+.lib .plus{
+  height: 50px;
+  width: 80px;
+  text-align: center;
+  font-size: 30px;
+  color: #7A7A7A;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.lib span{
+  color: #7A7A7A;
+  position: relative;
+  top: 10px;
+  background-color: #121212;
+}
+
+.create{
+  height: 365px;
+  width: 280px;
+  background-color: #121212;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.createin *{
+  background-color: #242424;
+}
+
+.createin{
+  height: 100px;
+  width: 210px;
+  background-color: #242424;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.createin>.sp1{
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  height: 10px;
+  margin-bottom: 20px;
+}
+
+.createin>.btn1{
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 9999px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.createin>.btn1:hover{
+  padding: 12px 22px;
+}
+
+.links{
+  width: 270px;
+  margin: 32px 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #121212;
+}
+
+.links *{
+  background-color: #121212;
+  font-size: 12px;
+  color: #a3a0a0;
+  padding: 0px 20px;
+  margin: 0px;
+}
+
+.btn2{
+  background-color: #121212;
+  width: 280px;
+}
+
+.btn2 button{
+  border-radius: 9999px;
+  padding: 6px 15px 6px 15px;
+  border: 0.8px solid rgb(88, 87, 87);
+  outline: none;
+  background-color: #121212;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.btn2 svg{
+  fill: white;
+  height: 15px;
+}
+
+.navbar{
+  background-color:  rgb(10, 10, 10);
+  width: 1198px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  fill: white;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+}
+
+.navbar *{
+  background-color: rgba(31, 31, 31, 0.05);
+  
+}
+
+.navbar a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  left: 550px;
+  color: rgb(167, 167, 167);
+  cursor: pointer;
+}
+
+.navbar button{
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 9999px;
+  border: none;
+  position: relative;
+  left: 580px;
+  cursor: pointer;
+}
+
+.btn3 button:hover{
+  padding: 16px 32px;
+  transition: 33ms ease-out;
+}
+
+.navbar a:hover{
+  font-size: 17px;
+  color: white;
+}
+
+.navbar input{
+  position: relative;
+  left: 80px;
+}
+
+.main{
+  display: flex;
+}
+
+.main1{
+  position: fixed;
+}
+
+.main2{
+  padding: 0px 10px;
+  width: 1200px;
+  position: relative;
+  left: 280px;
+}
+
+.input>input{
+  background-color: #242424;
+  border: none;
+  padding: 16px 100px;
+  border-radius: 9999px; 
+}
+
+.input svg{
+  height: 16px;
+  width: 16px;
+  position: relative;
+  right: 265px;
+  top: 4.5px;
+  background-color: #242424;
+}
+
+.input>input::placeholder{
+  position: relative;
+  right: 60px;
+}
+
+.sp3{
+  display: flex;
+  column-gap: 30px;
+  position: relative;
+  left: 45px;
+  top: 15px;
+}
+
+.sp3 svg{
+  height: 16px;
+  width: 16px;
+  background-color:  rgba(31, 31, 31, 0);
+  border-radius: 50%;
+}
+
+.browse{
+  padding: 0px 0px 0px 22px;
+  margin-top: 0px;
+  background-color: #121212;
+  height: 100%;
+  width: 1198px;
+}
+
+.browse *{
+  background-color: #121212;
+}
+
+.browse .txt{
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  top: 50px;
+  padding: 20px 0px;
+}
+.img .img1{
+  /* background-color: rgb(0, 100, 80); */
+  height: 154px;
+  width: 274px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img{
+  width: 1198px;
+  display: grid;
+  grid-template-columns: 298px 298px 298px 298px;
+  grid-template-rows: 174px 174px 174px 174px;
+  justify-content: space-evenly;
+  position: relative;
+  top: 60px;  
+}
+
+.img img{
+  position: relative;
+  left: 160px;
+  border-radius: 4px;
+  /* transform: matrix(0.906308, 0.422618, -0.422618, 0.906308, 21.131, 7.13594); */
+  transform: rotate(25deg) translate(18%, -2%);
+}
+
+.i1{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 22px;
+  color: white;
+}
+
+#i0{
+  background-color: rgb(0, 100, 80);
+}
+#i1{
+  background-color: rgb(132, 0, 231);
+}
+
+#i2{
+  background-color: rgb(30, 50, 100);
+}
+
+#i3{
+  background-color: rgb(96, 129, 8);
+}
+
+#i4{
+  background-color: rgb(220, 20, 140);
+}
+
+#i5{
+  background-color: rgb(176, 40, 151);
+}
+
+#i6{
+  background-color: rgb(165, 103, 82);
+}
+
+#i7{
+  background-color: rgb(119, 119, 119);
+}
+#i8{
+  background-color: #0D73EC;
+}
+#i9{
+  background-color: #8E66AC;
+}
+#i10{
+  background-color: #E13300;
+}
+
+#i11{
+  background-color: #777777;
+}
+
+#i12{
+  background-color: rgb(119, 119, 119);
+}
